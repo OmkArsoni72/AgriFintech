@@ -1,0 +1,22 @@
+{
+  "name": "agri-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "start": "turbo run start",
+    "lint": "turbo run lint",
+    "clean": "turbo run clean && rm -rf node_modules"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "turbo": "^1.10.0",
+    "typescript": "^5.9.3",
+    "prettier": "^3.0.0"
+  },
+  "packageManager": "pnpm@8.0.0"
+}

@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@web/*": ["apps/web/*"],
+      "@api/*": ["apps/api/*"],
+      "@packages/ui": ["packages/ui/src"],
+      "@packages/ui/*": ["packages/ui/src/*"],
+      "@packages/utils": ["packages/utils/src"],
+      "@packages/utils/*": ["packages/utils/src/*"],
+      "@packages/types": ["packages/types"],
+      "@packages/types/*": ["packages/types/*"]
+    },
+    "composite": false,
+    "declaration": true,
+    "declarationMap": true,
+    "moduleResolution": "bundler",
+    "target": "ES2022",
+    "module": "ESNext",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "jsx": "preserve",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "incremental": true
+  }
+}

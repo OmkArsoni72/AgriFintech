@@ -1,0 +1,46 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "allowJs": true,
+    "jsx": "preserve",
+    "outDir": "dist",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": [
+        "./*"
+      ],
+      "@web/*": [
+        "./*"
+      ],
+      "@packages/ui": [
+        "../../packages/ui/src"
+      ],
+      "@packages/ui/*": [
+        "../../packages/ui/src/*"
+      ],
+      "@packages/utils": [
+        "../../packages/utils/src"
+      ],
+      "@packages/utils/*": [
+        "../../packages/utils/src/*"
+      ]
+    },
+    "noEmit": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.js",
+    "**/*.jsx",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}

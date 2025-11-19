@@ -1,0 +1,66 @@
+
+> @apps/web@1.0.0 build C:\Users\omkar\Desktop\New folder\AgriFinAI\apps\web
+> next build
+
+   ▲ Next.js 15.5.6
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully in 11.3s
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/33) ...
+   Generating static pages (8/33) 
+   Generating static pages (16/33) 
+   Generating static pages (24/33) 
+ ✓ Generating static pages (33/33)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                                    Size  First Load JS
+┌ ○ /                                       6.95 kB         151 kB
+├ ○ /_not-found                               993 B         103 kB
+├ ○ /about                                    176 B         111 kB
+├ ○ /admin                                  4.56 kB         109 kB
+├ ○ /admin/dashboard                         5.5 kB         114 kB
+├ ○ /admin/login                            2.61 kB         111 kB
+├ ƒ /api/admin/products                       166 B         102 kB
+├ ƒ /api/admin/products/[productId]           166 B         102 kB
+├ ƒ /api/admin/products/[productId]/status    166 B         102 kB
+├ ƒ /api/admin/users                          166 B         102 kB
+├ ƒ /api/admin/users/[userId]                 166 B         102 kB
+├ ƒ /api/analyze-crop                         166 B         102 kB
+├ ƒ /api/auth/login                           166 B         102 kB
+├ ƒ /api/auth/register                        166 B         102 kB
+├ ƒ /api/chat                                 166 B         102 kB
+├ ƒ /api/farmer-news                          166 B         102 kB
+├ ƒ /api/send-inquiry                         166 B         102 kB
+├ ƒ /api/soil-analysis                        166 B         102 kB
+├ ○ /contact                                  169 B         105 kB
+├ ○ /dashboard                              3.16 kB         111 kB
+├ ○ /faq                                    2.35 kB         110 kB
+├ ○ /farmers                                 2.7 kB         108 kB
+├ ƒ /foods/[id]                             5.96 kB         113 kB
+├ ○ /home                                   5.69 kB         150 kB
+├ ƒ /inquiry/[id]                           6.65 kB         120 kB
+├ ○ /loan                                     169 B         105 kB
+├ ƒ /loan/[bankId]                            169 B         105 kB
+├ ƒ /loan/[bankId]/apply/[loanId]           2.95 kB         108 kB
+├ ○ /login                                  4.98 kB         113 kB
+├ ○ /marketplace                            3.92 kB         109 kB
+├ ○ /news                                   3.16 kB         108 kB
+├ ○ /privacy                                  166 B         102 kB
+├ ƒ /products/[id]                          3.08 kB         116 kB
+├ ○ /profile                                3.41 kB         112 kB
+├ ○ /sell                                   5.58 kB         114 kB
+├ ○ /soil-health                            3.33 kB         111 kB
+├ ○ /terms                                    166 B         102 kB
+└ ○ /weather                                5.87 kB         111 kB
++ First Load JS shared by all                102 kB
+  ├ chunks/1795-034629a707c6c4a3.js         45.6 kB
+  ├ chunks/2cc631f5-076a5eaedac626e3.js     54.2 kB
+  └ other shared chunks (total)                2 kB
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
